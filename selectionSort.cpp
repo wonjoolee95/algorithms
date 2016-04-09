@@ -33,10 +33,10 @@ void printArray(int int_array[], int size) {
 
 int main(int argc, const char * argv[]) {
     
-    int my_array[] = {9, 24, 7, 25, 38, 1, 33, 16, 15, 44, 6, 13, 
-    40, 34, 50, 49, 35, 17, 31, 27, 2, 12, 14, 39, 23, 11, 28, 41, 
-    47, 37, 3, 43, 48, 32, 20, 21, 42, 46, 45, 22, 18, 29, 8, 19, 
-    26, 10, 30, 5, 4, 36}; // a shuffled int array between [1, 50];
+    int my_array[] = {9, 24, 7, 25, 38, 1, 33, 16, 15, 44, 6, 13, 40, 
+        34, 50, 49, 35, 17, 31, 27, 2, 12, 14, 39, 23, 11, 28, 41, 
+        47, 37, 3, 43, 48, 32, 20, 21, 42, 46, 45, 22, 18, 29, 8, 
+        19, 26, 10, 30, 5, 4, 36}; // a shuffled int array between [1, 50];
     cout << "Initial array: " << endl;
     cout << "  ";
     printArray(my_array, sizeof(my_array)/sizeof(my_array[0]));
