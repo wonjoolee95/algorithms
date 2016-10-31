@@ -1,1 +1,1 @@
-Makefile puts obj files into this folder
+Object files created by makefile
